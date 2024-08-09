@@ -121,7 +121,7 @@ body {
 .hamburger {
   margin-bottom: 0.1rem;
   display: none;
-  border: none !important;
+
 }
 
 .bar {
@@ -138,6 +138,7 @@ body {
 .theme-switch {
   margin-top: 4px;
 }
+
 /* Hero section */
 #hero {
   display: flex;
@@ -311,9 +312,6 @@ body {
     padding: 0.2rem 0.4rem;
   }
 
-  .hamburger.active {
-    border: 1px dotted gray;
-  }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
