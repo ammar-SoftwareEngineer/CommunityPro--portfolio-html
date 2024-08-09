@@ -121,6 +121,7 @@ body {
 .hamburger {
   margin-bottom: 0.1rem;
   display: none;
+  border: none !important;
 }
 
 .bar {
@@ -133,6 +134,10 @@ body {
   background-color: var(--bg-secondary);
 }
 
+/* Theme Switch */
+.theme-switch {
+  margin-top: 4px;
+}
 /* Hero section */
 #hero {
   display: flex;
@@ -242,7 +247,6 @@ body {
 
 #footer .social a {
   margin: 0 0.5rem;
-
 }
 
 #footer p {
@@ -258,7 +262,8 @@ body {
   }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 @media (max-width: 670px) {
   .navbar .nav-menu {
@@ -280,7 +285,8 @@ body {
   }
 
   .nav-menu.active {
-    right: 20px;
+    right: 0px;
+    width: 100%;
   }
 
   .nav-menu .nav-link {
@@ -333,4 +339,3 @@ body {
     width: 80%;
   }
 }
-
