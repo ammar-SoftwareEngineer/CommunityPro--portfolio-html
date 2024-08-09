@@ -179,3 +179,7 @@ h2::selection {
     font-size: 2.5rem;
   }
 }
+/* Solution */
+img,a{
+  user-select: none;
+}
